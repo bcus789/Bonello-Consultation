@@ -1,15 +1,51 @@
 body {
   font-family: "edmondsansmedium" !important;
 }
-.nav-wrapper {
+#navBar {
   background-color: whitesmoke;
+  text-align: center;
 }
 .navLink {
   color: black;
+  font-size: 20px !important;
+}
+#navButtons {
+  display: inline-flex;
+  justify-content: center;
+  justify-content: space-between;
+  width: 90%;
 }
 #logo {
-  color: black !important;
+  font-size: 40px !important;
+}
+#header {
+  width: 100%;
+  text-align: center;
+  font-size: 8rem;
+  margin-top: 6% !important;
+  color: rgb(236, 236, 236) !important;
+  letter-spacing: 4px;
+}
+h4 {
+  color: rgb(54, 0, 0);
 }
 h5 {
   color: whitesmoke;
+}
+h6 {
+  text-align: center;
+}
+#blurb {
+  text-align: center;
+}
+#footer {
+  background-color: rgb(56, 197, 120);
+}
+.blurb {
+  font-size: 20px;
+  text-align: center;
+}
+.blurbContain {
+  margin-left: 5%;
+  margin-right: 5%;
 }

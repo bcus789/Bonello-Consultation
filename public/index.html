@@ -22,13 +22,16 @@
   </head>
 
   <body>
-    <nav>
-      <div class="nav-wrapper">
-        <a href="#" class="brand-logo right" id="logo">Bonello</a>
-        <ul id="nav-mobile" class="left hide-on-med-and-down">
+    <nav id="navBar">
+      <div>
+        <ul id="navButtons">
           <li><a class="navLink" href="./routes/home.html">Home</a></li>
-          <li><a class="navLink" href="./routes/services.html">Services</a></li>
           <li><a class="navLink" href="./routes/about.html">About</a></li>
+          <a class="navLink" id="logo" href="#" class="brand-logo center"
+            >Enrico Bonello</a
+          >
+
+          <li><a class="navLink" href="./routes/services.html">Services</a></li>
           <li><a class="navLink" href="./routes/contact.html">Contact</a></li>
         </ul>
       </div>
@@ -38,11 +41,11 @@
       <div class="section no-pad-bot">
         <div class="container">
           <br /><br />
-          <h1 class="header center teal-text text-lighten-2">
-            Bonello Consultation
+          <h1 id="header">
+            Tree-Health Consulting
           </h1>
           <div class="row center">
-            <h5 class="header col s12 light">
+            <h5 class="header col 8 s12 light">
               Hey, there is something wrong with your tree.
             </h5>
           </div>
@@ -50,59 +53,36 @@
         </div>
       </div>
       <div class="parallax">
-        <img src="./assets/background1.jpg" alt="Unsplashed background img 1" />
+        <img src="./assets/background6.jpg" alt="Unsplashed background img 1" />
       </div>
     </div>
 
-    <div class="container">
+    <div class="blurbContain">
       <div class="section">
-        <!--   Icon Section   -->
         <div class="row">
-          <div class="col s12 m4">
+          <div class="col 8 s12">
             <div class="icon-block">
-              <h2 class="center brown-text">
-                <i class="material-icons">Here's</i>
-              </h2>
-              <h5 class="center">Speeds up development</h5>
+              <h4 class="center">
+                <i>Professional Advice</i>
+              </h4>
 
-              <p class="light">
-                We did most of the heavy lifting for you to provide a default
-                stylings that incorporate our custom components. Additionally,
-                we refined animations and transitions to provide a smoother
-                experience for developers.
-              </p>
-            </div>
-          </div>
-
-          <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center brown-text">
-                <i class="material-icons">Some</i>
-              </h2>
-              <h5 class="center">User Experience Focused</h5>
-
-              <p class="light">
-                By utilizing elements and principles of Material Design, we were
-                able to create a framework that incorporates components and
-                animations that provide more feedback to users. Additionally, a
-                single underlying responsive system across all platforms allow
-                for a more unified user experience.
-              </p>
-            </div>
-          </div>
-
-          <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center brown-text">
-                <i class="material-icons">Info</i>
-              </h2>
-              <h5 class="center">Easy to work with</h5>
-
-              <p class="light">
-                We have provided detailed documentation as well as specific code
-                examples to help new users get started. We are also always open
-                to feedback and can answer any questions a user may have about
-                Materialize.
+              <p class="blurb">
+                My research interests range from understanding the molecular
+                mechanisms of tree-pathogen interactions to ways to harness such
+                knowledge to improve forest health management. I have conducted
+                fundamental research to try and elucidate basic mechanisms of
+                resistance, the phenomenon known as systemic induced resistance
+                (SIR) in trees against pathogens and insects, and
+                cross-induction effects between fungal pathogens and insects
+                mediated by the host tree. A recent and very exciting derivation
+                of this fundamental work has been the development of
+                spectroscopic techniques to rapidly and non-destructively
+                phenotype trees for resistance to invasive pathogens causing
+                diseases of great significance, such as sudden oak death in
+                California, white pine blister rust in the Pacific Northwest,
+                and ash dieback in Europe. For this work, in 2019 I received an
+                award for Outstanding Innovation from the Reduce Risk of
+                Invasive Species Coalition.
               </p>
             </div>
           </div>
@@ -112,30 +92,39 @@
 
     <div class="parallax-container valign-wrapper">
       <div class="section no-pad-bot">
-        <div class="container"></div>
+        <div class="container">
+          <div class="row center">
+            <h6 class="header col 8 s12 light">
+              Hey, there is something wrong with your tree.
+            </h6>
+          </div>
+        </div>
       </div>
       <div class="parallax">
-        <img src="./assets/background2.jpg" alt="Unsplashed background img 2" />
+        <img src="./assets/background7.jpg" alt="Unsplashed background img 2" />
       </div>
     </div>
 
-    <div class="container">
+    <div class="blurbContain">
       <div class="section">
         <div class="row">
           <div class="col s12 center">
             <h3><i class="mdi-content-send brown-text"></i></h3>
-            <h4>Contact Us</h4>
-            <p class="left-align light">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-              scelerisque id nunc nec volutpat. Etiam pellentesque tristique
-              arcu, non consequat magna fermentum ac. Cras ut ultricies eros.
-              Maecenas eros justo, ullamcorper a sapien id, viverra ultrices
-              eros. Morbi sem neque, posuere et pretium eget, bibendum
-              sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis
-              nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa
-              odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget
-              dignissim mauris, non tristique erat. Vestibulum ante ipsum primis
-              in faucibus orci luctus et ultrices posuere cubilia Curae;
+            <h4>Current Focus</h4>
+            <p class="blurb">
+              In the last few years I have also developed an intense interest in
+              advocating for the fundamental role of tree resistance research
+              and deployment for the rational management of invasive tree
+              pathogens and pests and, as an important derivation, for a radical
+              change in how government handles management of invasive tree
+              pathogens and pests. This activity has resulted in the formulation
+              of coherent plans for the end-to-end management of such scourges,
+              from how to handle potential sources of pests abroad to the best
+              approaches to restore affected ecosystems. Besides my role as a
+              faculty in Plant Pathology, I am a member of the Center for
+              Applied Plant Sciences, the Environmental Science Graduate
+              Program, the Infectious Disease Institute, and the Sustainability
+              Institute.
             </p>
           </div>
         </div>
@@ -149,25 +138,49 @@
         </div>
       </div>
       <div class="parallax">
-        <img src="./assets/background3.jpg" alt="Unsplashed background img 3" />
+        <img src="./assets/background4.jpg" alt="Unsplashed background img 3" />
       </div>
     </div>
 
     <footer class="page-footer teal">
       <div class="container">
         <div class="row">
-          <div class="col 8 s12">
-            <h5 class="white-text">About</h5>
+          <div class="col l6 s12">
+            <h5 class="white-text">Qualifications</h5>
+            <br />
             <p class="grey-text text-lighten-4">
-              We are a team of college students working on this project like
-              it's our full time job. Any amount would help support and continue
-              development on this project and is greatly appreciated.
+              PhD, University of Oxford, United Kingdom<br />
+              <br />
+              MSc, University of Padova, Italy
             </p>
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">Settings</h5>
+            <ul>
+              <li><a class="white-text" href="#!">Link 1</a></li>
+              <li><a class="white-text" href="#!">Link 2</a></li>
+              <li><a class="white-text" href="#!">Link 3</a></li>
+              <li><a class="white-text" href="#!">Link 4</a></li>
+            </ul>
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">Connect</h5>
+            <ul>
+              <li><a class="white-text" href="#!">Link 1</a></li>
+              <li><a class="white-text" href="#!">Link 2</a></li>
+              <li><a class="white-text" href="#!">Link 3</a></li>
+              <li><a class="white-text" href="#!">Link 4</a></li>
+            </ul>
           </div>
         </div>
       </div>
       <div class="footer-copyright">
-        <div class="container"></div>
+        <div class="container">
+          Made by
+          <a class="brown-text text-lighten-3" href="https://github.com/bcus789"
+            >Eugenio Bonello</a
+          >
+        </div>
       </div>
     </footer>
 
