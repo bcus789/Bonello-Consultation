@@ -31,6 +31,7 @@ h1 {
   margin-bottom: -40px;
   margin-top: 30px;
   font-size: 5rem;
+  color: teal;
 }
 h4 {
   color: rgb(54, 0, 0);
@@ -38,6 +39,7 @@ h4 {
 h5 {
   color: whitesmoke;
   font-size: 1rem;
+  letter-spacing: 3px;
 }
 h6 {
   text-align: center;
@@ -49,7 +51,7 @@ h7 {
   text-align: center;
 }
 #footer {
-  background-color: rgb(56, 197, 120);
+  background-color: rgb(44, 206, 117);
 }
 .blurb {
   font-size: 20px;
@@ -62,27 +64,37 @@ h7 {
 }
 #opinion{
   margin-top: 1rem ;
-  color: rgb(255, 255, 255);
+  color: rgb(170, 0, 0);
   font-size: 30px;
 }
 #list {
   text-align: center;
-  margin-top: 30px;
-  color: rgb(238, 227, 203);
+  margin-top: 70px;
+  color: rgb(255, 255, 255);
   line-height: 20px;
   font-size: 20px;
 }
 
 #note {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 70px;
   font-size: 20px;
 }
 #witness {
   text-align: center;
   font-size: 40px;
-  margin-top: 8rem;
+  margin-top: 6rem;
 }
 #witness2 {
   color: rgb(197, 197, 197), 221;
+}
+html {
+  scroll-behavior: smooth;
+}
+#footer {
+  text-align: center;
+
+}
+#contactButton {
+  margin-top: 40px;
 }
